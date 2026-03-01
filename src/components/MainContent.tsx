@@ -20,9 +20,9 @@ export default function MainContent() {
             <Skills skills={skills} />
             <Recognition recognition={recognition} />
 
-            <footer className="max-w-md pb-12 text-sm text-[var(--text-muted)] sm:pb-0 relative z-20">
-                <div className="flex flex-col gap-4">
-                    <p className="flex items-center gap-2 group/footer select-none transition-transform duration-300 hover:-translate-y-1 origin-left">
+            <footer className="max-w-md pb-12 text-sm text-[var(--text-muted)] sm:pb-0 relative z-20 text-center sm:text-left">
+                <div className="flex flex-col items-center sm:items-start gap-4">
+                    <p className="flex items-center gap-2 group/footer select-none transition-transform duration-300 hover:-translate-y-1 origin-center sm:origin-left">
                         <span>© {footer.year} · {footer.tagline}</span>
                         <FaSmile className="inline text-[var(--tag-text)] h-4 w-4 transition-transform duration-300 group-hover/footer:scale-125 group-hover/footer:rotate-12 cursor-pointer" />
                     </p>

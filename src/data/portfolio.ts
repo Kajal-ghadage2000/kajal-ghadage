@@ -21,10 +21,10 @@ export const portfolioData: PortfolioData = {
     ],
     about: {
         paragraphs: [
-            "I'm a frontend engineer with a passion for building scalable, high-performance web applications that work seamlessly across platforms. I love the intersection of clean code architecture and thoughtful user experience, where performance optimization, accessibility, and elegant design come together to create products people actually enjoy using.",
-            "Currently, I'm a senior frontend developer at Testlify, where I work on a React and TypeScript-based talent assessment platform used by teams globally. In this role, I've focused on improving performance by cutting page load time with 33%, strengthening security by reducing vulnerabilities from 160 to 10, and improving accessibility for WCAG standards so that assessments are accessible for all. I collaborate closely with product and design teams to ensure that the features we build don't just work—they scale and enhance the experience for thousands of users.",
-            "Previously, I have worked in various environments as a full-stack developer and ETL specialist, creating everything from Jira plugins to healthcare AI applications and fintech solutions. This diverse experience has taught me to adapt, solve complex problems, and deliver high-quality solutions within different constraints.",
-            "Outside of work, I enjoy climbing, making different types of art, and painting on canvas."
+            "I'm a frontend engineer with a passion for building <strong class='text-[var(--text-primary)] font-semibold'>scalable, high-performance</strong> web applications that work seamlessly across platforms. I love the intersection of clean code architecture and thoughtful user experience, where performance optimization, accessibility, and elegant design come together to create products people actually enjoy using.",
+            "Currently, I'm a senior frontend developer at <strong class='text-[var(--text-primary)] font-semibold'>Testlify</strong>, where I work on a React and TypeScript-based talent assessment platform used by teams globally. In this role, I've focused on improving performance by cutting page load time with 33%, strengthening security by reducing vulnerabilities from 160 to 10, and improving accessibility for WCAG standards so that assessments are accessible for all. I collaborate closely with product and design teams to ensure that the features we build don't just work—they scale and enhance the experience for thousands of users.",
+            "Previously, I have worked in various environments as a full-stack developer and ETL specialist, creating everything from <strong class='text-[var(--text-primary)] font-semibold'>Jira plugins</strong> to <strong class='text-[var(--text-primary)] font-semibold'>healthcare AI applications</strong> and <strong class='text-[var(--text-primary)] font-semibold'>fintech solutions</strong>. This diverse experience has taught me to adapt, solve complex problems, and deliver high-quality solutions within different constraints.",
+            "Outside of work, I enjoy climbing, making different types of art, and <strong class='text-[var(--text-primary)] font-semibold'>painting on canvas</strong>."
         ]
     },
     experience: [
@@ -71,7 +71,7 @@ export const portfolioData: PortfolioData = {
             link: "https://github.com/disha2000/AI-Based-Voice-Prescription-",
             description: "A healthcare web application that writes prescriptions based on dictation from doctors. A Natural Language Processing model is trained on the Harvard Medical School EHR dataset to generate structured digital prescriptions from raw transcripts.",
             tech: ['React', 'Node', 'Express', 'MongoDB', 'NLP', 'Python', 'JWT'],
-            image: "src/assets/voice-prescription.png"
+            image: "/assets/voice-prescription.png"
         }
     ],
     skills: [
@@ -81,9 +81,9 @@ export const portfolioData: PortfolioData = {
         { icon: '⚡', title: 'Performance, Testing & Tools', desc: 'Code Splitting, Lazy Loading, Memoization, WCAG Standards, Jest, Git, GitHub, Vercel, Netlify, Webpack, Figma' }
     ],
     recognition: [
-        { year: '2025', title: 'React Frontend Developer Certificate', img: 'src/assets/React.png', link: 'https://www.hackerrank.com/certificates/iframe/b9781c8d7e08' },
-        { year: '2022', title: 'Excellence award for passion & customer service - Bitwise', img: 'src/assets/bitwise.jpg', link: 'https://drive.google.com/file/d/1BBf8z1wXNI7RDSkzxGOXrqKpCuV5rakD/view' },
-        { year: '2021', title: 'Research Publication: Voice Based Prescription Generation using AI', img: 'src/assets/Publication.png', link: 'https://www.irjet.net/archives/V8/i6/IRJET-V8I6217.pdf' }
+        { year: '2025', title: 'React Frontend Developer Certificate', img: '/assets/React.png', link: 'https://www.hackerrank.com/certificates/iframe/b9781c8d7e08' },
+        { year: '2022', title: 'Excellence award for passion & customer service - Bitwise', img: '/assets/bitwise.jpg', link: 'https://drive.google.com/file/d/1BBf8z1wXNI7RDSkzxGOXrqKpCuV5rakD/view' },
+        { year: '2021', title: 'Research Publication: Voice Based Prescription Generation using AI', img: '/assets/Publication.png', link: 'https://www.irjet.net/archives/V8/i6/IRJET-V8I6217.pdf' }
     ],
     footer: {
         tagline: "Built with obsession for detail",
