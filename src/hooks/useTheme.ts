@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useLayoutEffect } from 'react';
 
 declare global {
     interface Window {
@@ -40,7 +40,7 @@ export const useTheme = () => {
         }
     };
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         if (!isDarkMode) {
             document.documentElement.classList.add('light');
         } else {
